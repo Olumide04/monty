@@ -3,6 +3,7 @@
 /**
  * clear_memory - clears memory
  */
+
 void clear_memory(void)
 {
 	stack_t *temp;
@@ -20,6 +21,7 @@ void clear_memory(void)
  * free_tokenized - frees an array of array
  * @tokens: the array to free
  */
+
 void free_tokenized(char **tokens)
 {
 	int i = 0;
