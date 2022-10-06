@@ -69,6 +69,7 @@ int simple_opcodes(char **args)
  * process_args - chexk for validity of arg
  * @args: arguments array
  */
+
 void process_args(char **args)
 {
 	int count = arrlen(args);
