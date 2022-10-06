@@ -7,6 +7,7 @@
  * Return: the handler found. if no valid handler exists,
  * a default NULL-based handler is returned
  */
+
 instruction_t _get_handler(const char *opcode)
 {
 	int i;
@@ -32,7 +33,7 @@ instruction_t _get_handler(const char *opcode)
 	for (i = 0; handlers[i].opcode != NULL; i++)
 	{
 		if (strcmp(opcode, handlers[i].opcode) == 0)
-			break;
+		break;
 	}
 	return (handlers[i]);
 }
