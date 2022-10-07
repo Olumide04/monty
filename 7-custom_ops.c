@@ -3,6 +3,7 @@
 /**
  * swap - swaps the first two elements
  */
+
 void swap(void)
 {
 	stack_t *temp;
