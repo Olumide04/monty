@@ -5,6 +5,7 @@
  * @path: path of the file
  * Return: pointer to content
  */
+
 char *read_file(const char *path)
 {
 	FILE *f;
