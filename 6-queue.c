@@ -4,6 +4,7 @@
  * enqueue - adds an element at the end
  * @n: data to add
  */
+
 void enqueue(int n)
 {
 	stack_t *new = malloc(sizeof(stack_t));
@@ -38,10 +39,12 @@ void enqueue(int n)
  *
  * Return: data of element removed
  */
+
 int dequeue(void)
 {
 	return (pop());
 }
+
 /**
  * print_queue - print in FIFO
  */
