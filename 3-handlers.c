@@ -5,6 +5,7 @@
  * @s: pointer to stack
  * @l: line number
  */
+
 void add_handler(stack_t **s, unsigned int l)
 {
 	(void)s;
@@ -17,6 +18,7 @@ void add_handler(stack_t **s, unsigned int l)
  * @s: pointer to stack
  * @l: line number
  */
+
 void sub_handler(stack_t **s, unsigned int l)
 {
 	(void)s;
@@ -29,6 +31,7 @@ void sub_handler(stack_t **s, unsigned int l)
  * @s: pointer to stack
  * @l: line number
  */
+
 void mul_handler(stack_t **s, unsigned int l)
 {
 	(void)s;
@@ -41,6 +44,7 @@ void mul_handler(stack_t **s, unsigned int l)
  * @s: pointer to stack
  * @l: line number
  */
+
 void div_handler(stack_t **s, unsigned int l)
 {
 	(void)s;
@@ -59,6 +63,7 @@ void div_handler(stack_t **s, unsigned int l)
  * @s: pointer to stack
  * @l: line number
  */
+
 void mod_handler(stack_t **s, unsigned int l)
 {
 	(void)s;
