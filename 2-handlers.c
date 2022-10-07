@@ -5,6 +5,7 @@
  * @s: pointer to stack
  * @l: line number
  */
+
 void push_handler(stack_t **s, unsigned int l)
 {
 	int n;
@@ -31,6 +32,7 @@ void push_handler(stack_t **s, unsigned int l)
  * @s: pointer to stack
  * @l: line number
  */
+
 void pop_handler(stack_t **s, unsigned int l)
 {
 	(void)s;
@@ -54,6 +56,7 @@ void pop_handler(stack_t **s, unsigned int l)
  * @s: pointer to stack
  * @l: line number
  */
+
 void swap_handler(stack_t **s, unsigned int l)
 {
 	(void)s;
@@ -71,6 +74,7 @@ void swap_handler(stack_t **s, unsigned int l)
  * @s: pointer to stack
  * @l: line number
  */
+
 void pall_handler(stack_t **s, unsigned int l)
 {
 	(void)s;
@@ -87,6 +91,7 @@ void pall_handler(stack_t **s, unsigned int l)
  * @s: pointer to stack
  * @l: line number
  */
+
 void nop_handler(stack_t **s, unsigned int l)
 {
 	(void)s;
