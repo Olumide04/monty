@@ -54,6 +54,7 @@ char **strtow(char *str, char *d)
  * @delim: the delimeter string
  * Return: 1 if true, 0 if false
  */
+
 int is_delim(char c, char *delim)
 {
 	while (*delim)
@@ -67,6 +68,7 @@ int is_delim(char c, char *delim)
  * string on the first occurence of blank line
  * @str: Tye string to truncate
  */
+
 void truncate_on_empty_line(char *str)
 {
 	int i = 0;
