@@ -5,6 +5,7 @@
  * @s: pointer to stack
  * @l: line number
  */
+
 void pint_handler(stack_t **s, unsigned int l)
 {
 	(void)s;
@@ -23,6 +24,7 @@ void pint_handler(stack_t **s, unsigned int l)
  * @s: pointer to stack
  * @l: line number
  */
+
 void temp_handler(stack_t **s, unsigned int l)
 {
 	(void)s;
@@ -35,6 +37,7 @@ void temp_handler(stack_t **s, unsigned int l)
  * @stack: A pointer to the top mode node of a stack_t linked list.
  * @line_number: The current working line number of a Monty bytecodes file.
  */
+
 void pchr_handler(stack_t **stack, unsigned int line_number)
 {
 	if ((*stack) == NULL)
